@@ -1,16 +1,11 @@
 const app = require('express');
 const axios = require('axios');
 const router = app.Router();
-const dbConfig = require('./db');
-//const MongoClient = require('mongodb').MongoClient;
-//app.keys = [dbConfig.mongodb.key];
-
-//console.log(process.env.NODE_ENV);
 
 const API = 'https://jsonplaceholder.typicode.com';
 
 router.get('/', (req, res) => {
-  res.json({ message: 'Olá! bem vindo a API demo' });
+  res.json({ message: 'Olá! bem vindo a API do Watson' });
 });
 
 router.get('/posts', (req, res) => {

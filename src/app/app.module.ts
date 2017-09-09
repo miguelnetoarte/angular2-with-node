@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CommonsModule } from './commons/commons.module';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-import { routing } from './app.routing';
+import { RoutingModule } from './routing/routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { routing } from './app.routing';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing,
+    RoutingModule,
     CommonsModule
   ],
   providers: [],
