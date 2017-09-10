@@ -39,10 +39,15 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
 ## Desenvolvimento local
 
     $ npm run serve
-    # isso executará o build do Angular2 e disponibilizara o projeto no browser com servidor node
-    $ ng serve
-    # isso executará o build padrão do Angular e disponibilizará o projeto no browser sem o servidor node
+    # isso executará o build do Angular2 e disponibilizara o projeto no browser com servidor nodejs
 
+## Build e Deploy
+
+    $ npm run build
+    # o camonado executará o build otimizado de produção
+    $ npm start
+    # esse comando iniciará o servidor nodejs
+    
 ## Login
 
     # para efetuar o login utilize as credenciais de exemplo `user@email.com.br` e `123456`
