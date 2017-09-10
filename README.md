@@ -56,7 +56,7 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
 
 - [Angular2](/notes/angular2.md)
 - [API](/notes/server/api.md)
-- [Servidor nodejs](/notes/watson-conversation.md)
-- [Watson conversation](/notes/ibm.md)
+- [Servidor nodejs](/notes/server.md)
+- [Watson conversation](/notes/watson-conversation.md)
 
 
