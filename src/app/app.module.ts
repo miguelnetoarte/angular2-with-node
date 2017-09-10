@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing.module';
 import { WatsonModule } from './watson/watson.module';
 import { ModelsModule } from './models/models.module';
+import { AuthService } from './auth/auth.service';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { ModelsModule } from './models/models.module';
     AuthModule,
     ModelsModule
   ],
-  providers: [],
+  providers: [
+    AuthService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
   exports: [
     HeaderComponent,
     FooterComponent
-  ]
+  ],
+  providers: []
 })
 export class CommonsModule { }
