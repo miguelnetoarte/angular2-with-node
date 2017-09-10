@@ -43,6 +43,10 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
     $ ng serve
     # isso executará o build padrão do Angular e disponibilizará o projeto no browser sem o servidor node
 
+## Login
+
+    # para efetuar o login utilize as credenciais de exemplo `user@email.com.br` e `123456`
+
 ## Build e deploy
 
     $ npm install
