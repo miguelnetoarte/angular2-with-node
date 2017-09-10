@@ -6,11 +6,12 @@ const app = express();
 const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
 
+//Include api current app
 const api = require('./server/routes/api');
 app.use('/api', api);
 
-
-const watson = require('./server/ibm/watson/conversation/api');
+//Include api watson conversation
+const watson = require('./server/ibm/watson/conversation/orquestrador');
 app.use('/watson', watson);
 
 
@@ -25,5 +26,5 @@ app.get('*', (req, res) => {
 
 
 app.listen(appEnv.port, '0.0.0.0', function() {
-  console.log("Servidor iniciado " + appEnv.url);
+  console.log(`Server started in ${appEnv.url} :)`);
 });

@@ -54,6 +54,7 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
 
 ## Notas
 
+- [Servidor node](server/ibm.md)
 - [Watson conversation](notes/ibm.md)
 
 
