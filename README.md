@@ -52,6 +52,11 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
     $ npm start
     # isso iniciará o servidor no ambiente
 
+## Notas
+
+    - [Watson conversation ](notes/ibm.md)
+
+    
 ## Desenvolvimento com Angular CLI
 
     Execute `ng serve` para o servidor local. Navegue em `http://localhost:4200/`. O app atualiza a página automaticamente quando um arquivo é alterado

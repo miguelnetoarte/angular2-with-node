@@ -6,18 +6,17 @@ const app = express();
 const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
 
-
 const api = require('./server/routes/api');
+app.use('/api', api);
+
+
 const watson = require('./server/ibm/watson/conversation/api');
+app.use('/watson', watson);
 
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist')));
-
-
-app.use('/api', api);
-app.use('/watson', watson);
 
 
 app.get('*', (req, res) => {
