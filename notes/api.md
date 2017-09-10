@@ -1,4 +1,4 @@
-## API ROUTES
+# API Routes
 
 Você pode utilizar o arquivo `server/routes/api.js` para mapear as url's de comunicação com sua base de dados ou até mesmo serviços de terceiros.
 
