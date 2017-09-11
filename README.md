@@ -1,4 +1,4 @@
-# Angular2 With Node + IBM API'S
+# Angular With Node
 
 A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quickstart) com servidor nodejs configurado
 
