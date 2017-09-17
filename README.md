@@ -40,13 +40,6 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
 
     $ npm run serve
     # isso executará o build do Angular2 e disponibilizara o projeto no browser com servidor nodejs
-
-## Build e Deploy
-
-    $ npm run build
-    # o camonado executará o build otimizado de produção
-    $ npm start
-    # esse comando iniciará o servidor nodejs
     
 ## Login
 
@@ -64,8 +57,7 @@ A aplicação utiliza o framework Angular CLI (https://angular.io/guide/quicksta
 ## Notas
 
 - [Angular2](/notes/angular2.md)
-- [API](/notes/server/api.md)
+- [API](/notes/api.md)
 - [Servidor nodejs](/notes/server.md)
-- [Watson conversation](/notes/watson-conversation.md)
 
 
