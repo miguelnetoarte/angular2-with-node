@@ -9,7 +9,6 @@ import { CommonsModule } from './commons/commons.module';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing.module';
-import { WatsonModule } from './watson/watson.module';
 import { ModelsModule } from './models/models.module';
 import { AuthService } from './auth/auth.service';
 
@@ -26,7 +25,6 @@ import { AuthService } from './auth/auth.service';
     HttpModule,
     RoutingModule,
     CommonsModule,
-    WatsonModule,
     AuthModule,
     ModelsModule
   ],

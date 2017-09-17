@@ -8,17 +8,12 @@ const appEnv = cfenv.getAppEnv();
 
 //Include api current app
 const api = require('./server/routes/api');
-app.use('/api', api);
-
-//Include api watson conversation
-const watson = require('./server/ibm/watson/conversation/orquestrador');
-app.use('/watson', watson);
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist')));
 
+app.use('/api', api);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
